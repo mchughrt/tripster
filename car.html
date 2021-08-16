@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Tripster &mdash; Book your next adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/spite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/spite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">6</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/spite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">2</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/user.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Luca</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="index.html" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/spite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="flight.html" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/spite.svg#icon-aircraft"></use>
+                </svg>
+                <span>Flights</span>
+              </a>
+            </li>
+            <li class="side-nav__item side-nav__item--active">
+              <a href="car.html" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/spite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a
+                href="https://mchughrt.github.io/natours/"
+                class="side-nav__link"
+              >
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/spite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/car-1.jpg"
+                alt="Photo of car 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/car-2.jpg"
+                alt="Photo of car 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/car-3.jpg"
+                alt="Photo of car 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Premier Auto</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/spite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/spite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/spite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/spite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/spite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/spite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Portorosso, Italy</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">9.1</div>
+              <div class="overview__rating-count">624 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list__item">Newest car models</li>
+                <li class="list__item">No waiting times</li>
+                <li class="list__item">Free tank of gas</li>
+                <li class="list__item">Free roadside assitance</li>
+                <li class="list__item">Chauffer available</li>
+                <li class="list__item">Save time</li>
+                <li class="list__item">Feel like a local</li>
+                <li class="list__item">Quality Service</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Chad and 2 other friends recommend renting cars
+                </p>
+                <div class="recommend_friends">
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-4.jpg"
+                    alt="User 4"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Chad Miller</p>
+                    <p class="review__user-date">Jan 12, 2021</p>
+                  </div>
+                  <div class="review__rating">9.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-6.jpg"
+                    alt="User 6"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Molly Johnson</p>
+                    <p class="review__user-date">Nov 22, 2020</p>
+                  </div>
+                  <div class="review__rating">9.2</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+          </div>
+
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Good news! We have 8 free cars for your selected dates!
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">Book now</span>
+              <span class="btn__invisible">Only 8 cars left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
